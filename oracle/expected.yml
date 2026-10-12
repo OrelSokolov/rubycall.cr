@@ -1,0 +1,37 @@
+ruby.version	3.3.8
+math.pi	3.141592653589793
+math.sin(0.5)	0.479425538604203
+math.hypot(3,4)	5.0
+rational.floor	3
+eval.int	42
+list.to_a	[3, 1, 2]
+list.sort!	[1, 2, 3]
+list.push	[1, 2, 3, 99]
+list.include?	true
+list.size	4
+dict.get	1
+dict.missing	
+dict.has_key?	true
+dict.size	2
+dict.to_h	a=1;b=2
+dict.delete	2
+rational.add	1/2
+rational.mul	1/18
+rational.sub	1/6
+rational.div	2/1
+rational.gt	true
+rational.eq	true
+str.mul	abcabcabc
+str.to_i	42
+str.to_f	2.5
+repr	[1, "x"]
+kwargs.kwtest	107
+block.map	[2, 4, 6]
+block.multi	30
+ivar.get	123
+respond_to?	true
+callable?.proc	true
+callable?.int	false
+conv.array	[1, 2, 3]
+conv.hash	a=1;b=2
+error.class	ZeroDivisionError

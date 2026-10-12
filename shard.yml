@@ -1,0 +1,11 @@
+name: rubycall_cr
+version: 0.1.0
+crystal: ">= 1.21.0"
+description: |
+  «RubyCall»: вызов MRI Ruby из Crystal поверх libruby (C API).
+  Зеркало pycall.cr: глобальный MUTEX + выделенный воркер-тред,
+  rb_protect на каждый вызов, keep-слоты для GC (rb_gc_register_address).
+  См. PLAN.md.
+
+authors:
+  - oleg
